@@ -29,6 +29,11 @@
     color: black;
     text-decoration: none;
 }
+nav a:hover,
+nav li.active a{
+    color: #6C63FF;
+
+}
 .nav-menu{
     display: flex;
     justify-content: flex-end;
@@ -45,6 +50,16 @@
         border-radius: 4px;
         color: white;
         border: none;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+}
+.main-button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
 }
 .main-container h2{
     font-size: 36px;
@@ -66,6 +81,10 @@
     border: 1px solid #6C63FF;
     border-radius: 4px;
     color:#6C63FF;
+}
+.small-button a{
+    color: #6C63FF;
+    text-decoration: none;
 }
 .second-container .row{
     margin-bottom: 50px;
@@ -112,7 +131,8 @@
 .title{
     font-size: 36px;
     line-height: 54px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .photo-description li{
     list-style-type: none;
