@@ -1,10 +1,18 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
 .container {
     box-sizing: border-box;
     max-width: 1140px;
     margin: 0 auto;
     position: relative;
     padding-top: 50px;
-    
 }
 .row{
     margin-right: 0px;
@@ -164,8 +172,8 @@ nav li.active a{
     }
 }
 @media (max-width:575){
-    .container{
-        width: 540px;
+    .container {
+     padding: 0 15px;
     }
     .main-container{
         padding: 0px;
@@ -175,5 +183,8 @@ nav li.active a{
     }
     .container .work-container{
         padding-right: 0px;
+    }
+    .row .col-6{
+        width: 100%;
     }
 }
